@@ -1,0 +1,63 @@
+{
+  "name": "react-ts-webpack",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@turf/turf": "^5.1.6",
+    "antd": "^4.4.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "leaflet": "^1.6.0",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-editable": "^1.2.0",
+    "leaflet.path.drag": "^0.0.6",
+    "less": "^3.11.3",
+    "less-loader": "5.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^2.7.0",
+    "react-leaflet-draw": "^0.19.0",
+    "react-leaflet-editable": "^0.1.1",
+    "react-leaflet-google-layer": "^1.1.4",
+    "react-scripts": "3.4.1",
+    "style-loader": "^1.2.1",
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "bundle": "webpack",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.10.4"
+  }
+}
